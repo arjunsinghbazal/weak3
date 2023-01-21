@@ -1,0 +1,55 @@
+h1{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+color: #000000;
+margin-left: 17px;
+}
+.cont{
+    margin-top: 56px;
+    margin-left: 59px;
+    margin-bottom: 20px;
+}
+.container{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 20px;
+    margin-left: 67px;
+}
+.im{
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+img{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+h3{
+    z-index: 2;
+    position: relative;
+    left: 262px;
+    top: -60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 51px;
+    /* identical to box height */
+      color:black;
+      margin-top: 35px;
+      
+}
+.im5{
+    grid-column: 1 / 3; 
+}
+.im6{
+    grid-column: 3 / 5;
+}
+h3:hover{
+    cursor: pointer;
+}
